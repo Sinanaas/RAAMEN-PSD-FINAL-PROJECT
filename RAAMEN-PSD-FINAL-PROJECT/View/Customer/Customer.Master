@@ -14,7 +14,8 @@
         <div class="navbar">
             <ul>
                 <li><asp:Button ID="butOut" runat="server" Text="Log Out" OnClick="butOut_Click" /></li>
-                <li><a href="#">Order Ramen</a></li>
+                <%--<li><a href="#">Order Ramen</a></li>--%>
+                <li><asp:Button ID="order_btn" runat="server" Text="Order Ramen" OnClick="order_btn_Click" /></li>
                 <li><a href="#">History</a></li>
                 <li><a href="#">Profile</a></li>
                 <li><a href="AdminHome.aspx">RAMEN BOS</a></li>

@@ -48,7 +48,7 @@ namespace RAAMEN_PSD_FINAL_PROJECT.View
             if (user != null)
             {
                 int uid = user.User_Id;
-                Session["user_id"] = uid;
+                //Session["user_id"] = uid;
                 if (remember_check.Checked)
                 {
                     HttpCookie cookie = new HttpCookie("UserInfo");
@@ -62,6 +62,11 @@ namespace RAAMEN_PSD_FINAL_PROJECT.View
                 }
                 else if (user.Role_Id == 2)
                 {
+                    if(CartRepository.searchCart(uid) == null)
+                    {
+                        DateTime currentTime = DateTime.Now;
+                        CartController.createCart(uid, currentTime);
+                    }
                     Response.Redirect("Customer/HomeCustomer.aspx?user_id=" + uid);
                 }
                 else if (user.Role_Id == 3)

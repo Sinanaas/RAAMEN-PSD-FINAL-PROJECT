@@ -1,4 +1,6 @@
-﻿using RAAMEN_PSD_FINAL_PROJECT.Repository;
+﻿using RAAMEN_PSD_FINAL_PROJECT.Controller;
+using RAAMEN_PSD_FINAL_PROJECT.Model;
+using RAAMEN_PSD_FINAL_PROJECT.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,20 +14,31 @@ namespace RAAMEN_PSD_FINAL_PROJECT.View.Customer
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            int user_id = int.Parse(Request.QueryString["user_id"]);
             ramenGridView.DataSource = RamenRepository.getAllRamen();
             ramenGridView.DataBind();
-            //cartGridView.DataSource;
-            
+            cartGridView.DataSource = CartRamenRepository.getAllItems(user_id);
+            cartGridView.DataBind();
         }
 
-        protected void ramenGridView_RowCommand(object sender, GridViewCommandEventArgs e)
+        //[System.Web.Services.WebMethod(EnableSession = true)]
+        //[System.Web.Script.Services.ScriptMethod(UseHttpGet = false)]
+        //[System.Web.Script.Services.GenerateScriptType(typeof(string), ScriptTypeId = "5F08FD78-50D0-4724-ADFA-2F2ECE135B2A")]
+
+        protected void ramenGridView_RowCommand1(object sender, GridViewCommandEventArgs e)
         {
+            if (e.CommandName == "AddRecord")
+            {
+                int index = Convert.ToInt32(e.CommandArgument.ToString());
+                GridViewRow row = ramenGridView.Rows[index];
+                string ramen_id = Server.HtmlDecode(row.Cells[1].Text);
 
-        }
-
-        protected void ramenGridView_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
+                int user_id = int.Parse(Request.QueryString["user_id"]);
+                Cart cart = CartRepository.searchCart(user_id);
+                CartRamenController.createCartRamen(cart.Cart_Id, int.Parse(ramen_id), 1);
+                Response.Redirect("OrderRamen.aspx?user_id=" + user_id);
+                //total.Text = ramen_id.ToString();
+            }
         }
     }
 }
