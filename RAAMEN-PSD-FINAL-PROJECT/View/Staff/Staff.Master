@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Staff.master.cs" Inherits="RAAMEN_PSD_FINAL_PROJECT.View.Staff.Staff" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="navbar">
+            <ul>
+                <li><asp:Button ID="butOut" runat="server" Text="Log Out" OnClick="butOut_Click" /></li>
+                <li><a href="StaffHome.aspx">Home</a></li>
+                <%--<li><a href="#">Manage Ramen</a></li>--%>
+                <li><asp:Button ID="manage_ramen_btn" runat="server" Text="Manage Ramen" OnClick="manage_ramen_btn_Click" /></li>
+                <li><a href="#">Order Queue</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="AdminHome.aspx">RAMEN BOS</a></li>
+            </ul>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
