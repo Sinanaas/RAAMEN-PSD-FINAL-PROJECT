@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="RAAMEN_PSD_FINAL_PROJECT.View.Login" %>
+﻿<%@ Page Language="C#" EnableSessionState="True" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="RAAMEN_PSD_FINAL_PROJECT.View.Login" %>
 
 <!DOCTYPE html>
 

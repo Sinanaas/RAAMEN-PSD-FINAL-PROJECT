@@ -8,7 +8,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace RAAMEN_PSD_FINAL_PROJECT.View.Admin
+namespace RAAMEN_PSD_FINAL_PROJECT.View.Staff
 {
     public partial class Profile : System.Web.UI.Page
     {
@@ -33,15 +33,15 @@ namespace RAAMEN_PSD_FINAL_PROJECT.View.Admin
             }
         }
 
-
         protected void update_btn_Click(object sender, EventArgs e)
         {
             int user_id = Convert.ToInt32(Session["user_id"]);
             string selectedGender;
-            if(male_radio.Checked)
+            if (male_radio.Checked)
             {
                 selectedGender = "Male";
-            } else
+            }
+            else
             {
                 selectedGender = "Female";
             }

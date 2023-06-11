@@ -19,7 +19,6 @@ namespace RAAMEN_PSD_FINAL_PROJECT.View.Admin
                 DateTime expiration = cookie.Expires;
                 TimeSpan duration = expiration - DateTime.Now;
                 double remainingHours = duration.TotalHours;
-                status.Text = Session["user_id"].ToString();
             }
 
             customerGridView.DataSource = UserRepository.getAllCustomer();

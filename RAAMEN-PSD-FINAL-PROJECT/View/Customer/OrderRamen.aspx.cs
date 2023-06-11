@@ -16,7 +16,9 @@ namespace RAAMEN_PSD_FINAL_PROJECT.View.Customer
         {
             if(!IsPostBack)
             {
-                int user_id = int.Parse(Request.QueryString["user_id"]);
+                //int user_id = int.Parse(Request.QueryString["user_id"]);
+                int user_id = Convert.ToInt32(Session["user_id"]);
+
                 ramenGridView.DataSource = RamenRepository.getAllRamen();
                 ramenGridView.DataBind();
                 cartGridView.DataSource = CartRamenRepository.getAllItems(user_id);
@@ -36,7 +38,8 @@ namespace RAAMEN_PSD_FINAL_PROJECT.View.Customer
                 GridViewRow row = ramenGridView.Rows[index];
                 string ramen_id = Server.HtmlDecode(row.Cells[1].Text);
 
-                int user_id = int.Parse(Request.QueryString["user_id"]);
+                //int user_id = int.Parse(Request.QueryString["user_id"]);
+                int user_id = Convert.ToInt32(Session["user_id"]);
                 Cart cart = CartRepository.searchCart(user_id);
                 CartRamenController.createCartRamen(cart.Cart_Id, int.Parse(ramen_id), 1);
                 Response.Redirect("OrderRamen.aspx?user_id=" + user_id);
@@ -45,7 +48,8 @@ namespace RAAMEN_PSD_FINAL_PROJECT.View.Customer
 
         protected void pay_btn_Click(object sender, EventArgs e)
         {
-            int user_id = int.Parse(Request.QueryString["user_id"]);
+            //int user_id = int.Parse(Request.QueryString["user_id"]);
+            int user_id = Convert.ToInt32(Session["user_id"]);
             DatabaseEntities db = new DatabaseEntities();
             Cart cart = CartRepository.searchCart(user_id);
             total.Text = CartRepository.getTotal(cart.Cart_Id).ToString();
@@ -64,7 +68,8 @@ namespace RAAMEN_PSD_FINAL_PROJECT.View.Customer
 
         protected void clear_btn_Click(object sender, EventArgs e)
         {
-            int user_id = int.Parse(Request.QueryString["user_id"]);
+            //int user_id = int.Parse(Request.QueryString["user_id"]);
+            int user_id = Convert.ToInt32(Session["user_id"]);
             DatabaseEntities db = new DatabaseEntities();
             Cart cart = CartRepository.searchCart(user_id);
             CartRamenRepository.deleteCartRamen(cart.Cart_Id);

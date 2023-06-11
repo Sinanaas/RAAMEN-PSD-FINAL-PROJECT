@@ -89,12 +89,17 @@
       <DependentUpon>Model.edmx</DependentUpon>
       <LastGenOutput>Model.cs</LastGenOutput>
     </Content>
+    <Content Include="View\Admin\History.aspx" />
     <Content Include="View\Admin\HomeAdmin.aspx" />
+    <Content Include="View\Admin\ManageRamen.aspx" />
+    <Content Include="View\Admin\OrderQueue.aspx" />
     <Content Include="View\Admin\Profile.aspx" />
+    <Content Include="View\Admin\Report.aspx" />
     <Content Include="View\Admin\style.css" />
     <Content Include="View\Customer\HistoryCustomer.aspx" />
     <Content Include="View\Customer\HomeCustomer.aspx" />
     <Content Include="View\Customer\OrderRamen.aspx" />
+    <Content Include="View\Customer\Profile.aspx" />
     <Content Include="View\Customer\style.css" />
     <Content Include="View\Customer\TransactionDetail.aspx" />
     <Content Include="View\FirstPage.aspx" />
@@ -103,6 +108,8 @@
     <Content Include="View\Staff\CreateRamen.aspx" />
     <Content Include="View\Staff\HomeStaff.aspx" />
     <Content Include="View\Staff\ManageRamen.aspx" />
+    <Content Include="View\Staff\OrderQueue.aspx" />
+    <Content Include="View\Staff\Profile.aspx" />
     <Content Include="View\Staff\style.css" />
     <Content Include="View\Staff\UpdateRamen.aspx" />
     <Content Include="Web.config" />
@@ -179,6 +186,13 @@
     <Compile Include="View\Admin\Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
     </Compile>
+    <Compile Include="View\Admin\History.aspx.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Admin\History.aspx.designer.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+    </Compile>
     <Compile Include="View\Admin\HomeAdmin.aspx.cs">
       <DependentUpon>HomeAdmin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -186,12 +200,33 @@
     <Compile Include="View\Admin\HomeAdmin.aspx.designer.cs">
       <DependentUpon>HomeAdmin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="View\Admin\ManageRamen.aspx.cs">
+      <DependentUpon>ManageRamen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Admin\ManageRamen.aspx.designer.cs">
+      <DependentUpon>ManageRamen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Admin\OrderQueue.aspx.cs">
+      <DependentUpon>OrderQueue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Admin\OrderQueue.aspx.designer.cs">
+      <DependentUpon>OrderQueue.aspx</DependentUpon>
+    </Compile>
     <Compile Include="View\Admin\Profile.aspx.cs">
       <DependentUpon>Profile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="View\Admin\Profile.aspx.designer.cs">
       <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Admin\Report.aspx.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Admin\Report.aspx.designer.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\Customer\Customer.Master.cs">
       <DependentUpon>Customer.Master</DependentUpon>
@@ -220,6 +255,13 @@
     </Compile>
     <Compile Include="View\Customer\OrderRamen.aspx.designer.cs">
       <DependentUpon>OrderRamen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Customer\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Customer\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\Customer\TransactionDetail.aspx.cs">
       <DependentUpon>TransactionDetail.aspx</DependentUpon>
@@ -269,6 +311,20 @@
     </Compile>
     <Compile Include="View\Staff\ManageRamen.aspx.designer.cs">
       <DependentUpon>ManageRamen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Staff\OrderQueue.aspx.cs">
+      <DependentUpon>OrderQueue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Staff\OrderQueue.aspx.designer.cs">
+      <DependentUpon>OrderQueue.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Staff\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Staff\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\Staff\Staff.Master.cs">
       <DependentUpon>Staff.Master</DependentUpon>

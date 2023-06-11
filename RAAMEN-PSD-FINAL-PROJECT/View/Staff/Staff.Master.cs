@@ -21,13 +21,8 @@ namespace RAAMEN_PSD_FINAL_PROJECT.View.Staff
             {
                 cookie.Expires = DateTime.Now.AddHours(-1);
             }
-            Response.Redirect("~/Login.aspx");
-        }
-
-        protected void manage_ramen_btn_Click(object sender, EventArgs e)
-        {
-            int user_id = int.Parse(Request.QueryString["user_id"]);
-            Response.Redirect("ManageRamen.aspx?user_id=" + user_id);
+            Session.Abandon();
+            Response.Redirect("~/View/Login.aspx");
         }
     }
 }
