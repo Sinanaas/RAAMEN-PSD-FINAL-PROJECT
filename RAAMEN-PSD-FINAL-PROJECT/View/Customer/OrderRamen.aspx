@@ -5,7 +5,7 @@
     <title>Order Ramen</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div style="margin-top: 55px">
+    <div style="margin-top: 55px;padding: 20px">
         <asp:Label runat="server" Text="Ramens"></asp:Label>
         <br />
         <asp:GridView ID="ramenGridView" runat="server" OnRowCommand="ramenGridView_RowCommand1">
@@ -27,5 +27,7 @@
         <br />
         <asp:Button ID="clear_btn" runat="server" Text="Clear Cart" OnClick="clear_btn_Click" />
         <asp:Button ID="pay_btn" runat="server" Text="Pay" OnClick="pay_btn_Click" />
+        <br />
+        <asp:Label ID="status" runat="server" Text=""></asp:Label>
     </div>
 </asp:Content>

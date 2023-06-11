@@ -27,6 +27,10 @@ namespace RAAMEN_PSD_FINAL_PROJECT.Repository
         public static List<Cart_Ramen> getAllItems(int user_id)
         {
             Cart cart = CartRepository.searchCart(user_id);
+            if(cart == null)
+            {
+                return null;
+            }
             List<Cart_Ramen> list = (from x in db.Cart_Ramen where x.Cart_Id.Equals(cart.Cart_Id) select x).ToList();
             return list;
         }
@@ -34,11 +38,11 @@ namespace RAAMEN_PSD_FINAL_PROJECT.Repository
         public static Cart_Ramen searchCartRamen(int ramen_id)
         {
             Cart_Ramen cart_ramen = (from x in db.Cart_Ramen where x.Ramen_Id.Equals(ramen_id) select x).FirstOrDefault();
-            if(cart_ramen != null)
+            if(cart_ramen == null)
             {
-                return cart_ramen;
+                return null;
             }
-            return null;
+            return cart_ramen;
         }
 
         public static void deleteCartRamen(int cart_id)

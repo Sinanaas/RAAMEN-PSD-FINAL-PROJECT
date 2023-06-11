@@ -14,7 +14,7 @@ namespace RAAMEN_PSD_FINAL_PROJECT.View
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            HttpCookie cookie = Request.Cookies["UserInfo"];
+            HttpCookie cookie = Request.Cookies["user_id"];
             if (cookie != null)
             {
                 string cookieValue = cookie.Value;
@@ -24,15 +24,15 @@ namespace RAAMEN_PSD_FINAL_PROJECT.View
                 User user = UserRepository.userSearch(userId);
                 if (user.Role_Id == 1)
                 {
-                    Response.Redirect("Admin/HomeAdmin.aspx?user_id=" + userId);
+                    Response.Redirect("Admin/HomeAdmin.aspx");
                 }
                 else if (user.Role_Id == 2)
                 {
-                    Response.Redirect("Customer/HomeCustomer.aspx?user_id=" + userId);
+                    Response.Redirect("Customer/HomeCustomer.aspx");
                 }
                 else if (user.Role_Id == 3)
                 {
-                    Response.Redirect("Staff/HomeStaff.aspx?user_id=" + userId);
+                    Response.Redirect("Staff/HomeStaff.aspx");
                 }
                 else
                 {
@@ -51,33 +51,29 @@ namespace RAAMEN_PSD_FINAL_PROJECT.View
                 Session["user_id"] = uid;
                 if (remember_check.Checked)
                 {
-                    HttpCookie cookie = new HttpCookie("UserInfo");
-                    cookie["user_id"] = user.User_Id.ToString();
+                    HttpCookie cookie = new HttpCookie("user_id");
+                    cookie["user_id"] = uid.ToString();
                     cookie.Expires = DateTime.Now.AddHours(1);
                     Response.Cookies.Add(cookie);
                 }
                 if (user.Role_Id == 1)
                 {
-                    Response.Redirect("Admin/HomeAdmin.aspx?user_id=" + uid);
+                    Response.Redirect("Admin/HomeAdmin.aspx");
                 }
                 else if (user.Role_Id == 2)
                 {
-                    if(CartRepository.searchCart(uid) == null)
-                    {
-                        DateTime currentTime = DateTime.Now;
-                        CartController.createCart(uid, currentTime);
-                    }
-                    Response.Redirect("Customer/HomeCustomer.aspx?user_id=" + uid);
+                    Response.Redirect("Customer/HomeCustomer.aspx");
                 }
                 else if (user.Role_Id == 3)
                 {
-                    Response.Redirect("Staff/HomeStaff.aspx?user_id=" + uid);
+                    Response.Redirect("Staff/HomeStaff.aspx");
                 }
                 else
                 {
                     Response.Redirect("Login.aspx");
                 }
             }
+            status.Text = "Couldn't find your credentials!";
         }
     }
 }

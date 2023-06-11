@@ -1,8 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/View/Staff/Staff.Master" AutoEventWireup="true" CodeBehind="UpdateRamen.aspx.cs" Inherits="RAAMEN_PSD_FINAL_PROJECT.View.Staff.UpdateRamen" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/View/Admin/Admin.Master" AutoEventWireup="true" CodeBehind="UpdateRamen.aspx.cs" Inherits="RAAMEN_PSD_FINAL_PROJECT.View.Admin.UpdateRamen" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <title>Update Ramen</title>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div style="margin-top: 55px;padding: 20px">
         <asp:Label ID="Label1" runat="server" Text="New Meat Type :"></asp:Label>
         <asp:DropDownList ID="DropDownList1" runat="server">

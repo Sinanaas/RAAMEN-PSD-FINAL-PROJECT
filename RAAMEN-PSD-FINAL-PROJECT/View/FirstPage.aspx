@@ -8,7 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div style="padding: 20px">
             <asp:Button ID="custReg_btn" runat="server" Text="Customer Register" OnClick="custReg_btn_Click" Width="141px" />
             <asp:Button ID="staffReg_btn" runat="server" Text="Staff Register" OnClick="staffReg_btn_Click" Width="141px" />
             <br />

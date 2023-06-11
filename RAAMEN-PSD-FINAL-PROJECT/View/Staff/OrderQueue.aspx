@@ -3,7 +3,7 @@
     <title>Order Queue</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
-    <div style="margin-top: 55px">
+    <div style="margin-top: 55px;padding: 20px">
         <asp:Label ID="Label1" runat="server" Text="Unhandled Orders"></asp:Label>
         <br />
         <asp:GridView ID="unhandledGridView" runat="server" OnRowCommand="unhandledGridView_RowCommand">

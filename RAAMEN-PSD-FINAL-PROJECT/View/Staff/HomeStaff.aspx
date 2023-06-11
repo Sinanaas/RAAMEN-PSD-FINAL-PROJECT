@@ -3,7 +3,7 @@
     <title>Staff Home</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
-        <div style="margin-top: 55px">
+        <div style="margin-top: 55px;padding: 20px">
             <asp:GridView ID="ramenGridView" runat="server"></asp:GridView>
         <br />
     </div>

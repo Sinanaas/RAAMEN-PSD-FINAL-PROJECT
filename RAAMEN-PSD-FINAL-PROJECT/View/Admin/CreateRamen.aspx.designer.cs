@@ -7,65 +7,92 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RAAMEN_PSD_FINAL_PROJECT.View.Customer
+namespace RAAMEN_PSD_FINAL_PROJECT.View.Admin
 {
 
 
-    public partial class OrderRamen
+    public partial class CreateRamen
     {
 
         /// <summary>
-        /// ramenGridView control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView ramenGridView;
+        protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// cartGridView control.
+        /// DropDownList1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView cartGridView;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
 
         /// <summary>
-        /// total control.
+        /// Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label total;
+        protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// clear_btn control.
+        /// name_txt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button clear_btn;
+        protected global::System.Web.UI.WebControls.TextBox name_txt;
 
         /// <summary>
-        /// pay_btn control.
+        /// Label3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button pay_btn;
+        protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// status control.
+        /// broth_txt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label status;
+        protected global::System.Web.UI.WebControls.TextBox broth_txt;
+
+        /// <summary>
+        /// Label4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label4;
+
+        /// <summary>
+        /// price_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox price_txt;
+
+        /// <summary>
+        /// create_ramen_btn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button create_ramen_btn;
     }
 }

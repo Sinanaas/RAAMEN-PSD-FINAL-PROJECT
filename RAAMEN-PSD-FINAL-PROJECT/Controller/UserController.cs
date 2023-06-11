@@ -12,33 +12,39 @@ namespace RAAMEN_PSD_FINAL_PROJECT.Controller
     {
         public static string userRegister(int role_id, string username, string email, string gender, string password, string confirm_password)
         {
-            if (username.Length < 5 || username.Length >= 15 || NoSpaces(username))
+            if (string.IsNullOrEmpty(username))
             {
-                // Handle the case when the username is invalid
+                return "Username is required";
+            }
+            else if (username.Length < 5 || username.Length >= 15 || NoSpaces(username))
+            {
                 return "Username is not valid";
+            }
+            else if (string.IsNullOrEmpty(email))
+            {
+                return "Email is required";
             }
             else if (!Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
             {
-                // Handle the case when the email is invalid
                 return "Email is not valid";
             }
             else if (string.IsNullOrEmpty(gender))
             {
-                // Handle the case when the gender is not chosen
-                return "Gender is not valid";
+                return "Gender is required";
+            }
+            else if (string.IsNullOrEmpty(password))
+            {
+                return "Password is required";
             }
             else if (password != confirm_password)
             {
-                // Handle the case when the password and confirm password do not match
                 return "Password doesn't match";
             }
             else
             {
-                // All fields are valid, proceed with user insertion
                 UserHandler.userRegister(role_id, username, email, gender, password);
                 return "Register Success";
             }
-
         }
         public static bool NoSpaces(string username)
         {
@@ -53,9 +59,38 @@ namespace RAAMEN_PSD_FINAL_PROJECT.Controller
             return user;
         }
 
-        public static void userUpdate(int id, string username, string email, string gender, string password)
+        public static string userUpdate(int id, string username, string email, string gender, string password)
         {
-            UserHandler.userUpdate(id, username, email, gender, password);
+            if (string.IsNullOrEmpty(username))
+            {
+                return "Username is required";
+            }
+            else if (username.Length < 5 || username.Length >= 15 || NoSpaces(username))
+            {
+                return "Username is not valid";
+            }
+            else if (string.IsNullOrEmpty(email))
+            {
+                return "Email is required";
+            }
+            else if (!Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+            {
+                return "Email is not valid";
+            }
+            else if (string.IsNullOrEmpty(gender))
+            {
+                return "Gender is required";
+            }
+            else if (string.IsNullOrEmpty(password))
+            {
+                return "Password is required";
+            }
+            else
+            {
+                UserHandler.userUpdate(id, username, email, gender, password);
+                return "Update Success";
+            }
         }
+
     }
 }

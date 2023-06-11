@@ -3,7 +3,7 @@
     <title>Admin Home</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div style="margin-top: 55px">
+    <div style="margin-top: 55px;padding: 20px">
         <asp:Label ID="Label1" runat="server" Text="ADMIN BOS"></asp:Label>
         <br />
         <asp:Label ID="status" runat="server" Text=""></asp:Label>

@@ -16,7 +16,7 @@ namespace RAAMEN_PSD_FINAL_PROJECT.View.Customer
 
         protected void butOut_Click(object sender, EventArgs e)
         {
-            HttpCookie cookie = Request.Cookies["UserInfo"];
+            HttpCookie cookie = Request.Cookies["user_id"];
             if (cookie != null)
             {
                 cookie.Expires = DateTime.Now.AddHours(-1);

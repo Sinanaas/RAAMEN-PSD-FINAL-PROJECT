@@ -45,7 +45,7 @@ namespace RAAMEN_PSD_FINAL_PROJECT.View.Staff
             {
                 selectedGender = "Female";
             }
-            UserController.userUpdate(user_id, username_txt.Text, email_txt.Text, selectedGender, password_txt.Text);
+            status.Text = UserController.userUpdate(user_id, username_txt.Text, email_txt.Text, selectedGender, password_txt.Text);
         }
     }
 }

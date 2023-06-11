@@ -1,4 +1,5 @@
 ﻿using RAAMEN_PSD_FINAL_PROJECT.Controller;
+using RAAMEN_PSD_FINAL_PROJECT.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,6 +32,8 @@ namespace RAAMEN_PSD_FINAL_PROJECT.View
             message.Text = UserController.userRegister(role_id, username_text.Text, email_text.Text, selectedGender, password_text.Text, confirm_password_text.Text);
             if (message.Text.Equals("Register Success"))
             {
+                int uid = UserRepository.getLatestUserIdWithRoleId2();
+                CartController.createCart(uid, DateTime.Now);
                 Response.Redirect("Login.aspx");
             }
         }

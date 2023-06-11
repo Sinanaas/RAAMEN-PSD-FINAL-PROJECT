@@ -48,5 +48,11 @@ namespace RAAMEN_PSD_FINAL_PROJECT.Repository
             List<User> users = (from x in db.Users where x.Role_Id.Equals(3) select x).ToList();
             return users;
         }
+
+        public static int getLatestUserIdWithRoleId2()
+        {
+            int latestUserId = db.Users.Where(u => u.Role_Id == 2).OrderByDescending(u => u.User_Id).Select(u => u.User_Id).FirstOrDefault();
+            return latestUserId;
+        }
     }
 }

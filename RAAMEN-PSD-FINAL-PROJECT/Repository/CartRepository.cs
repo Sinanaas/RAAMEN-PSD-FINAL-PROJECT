@@ -11,7 +11,11 @@ namespace RAAMEN_PSD_FINAL_PROJECT.Repository
         static DatabaseEntities db = new DatabaseEntities();
         public static Cart searchCart(int user_id)
         {
-            Cart cart = db.Carts.Find(user_id);
+            Cart cart = (from x in db.Carts where x.User_Id.Equals(user_id) select x).FirstOrDefault();
+            if(cart == null)
+            {
+                return null;
+            }
             return cart;
         }
 

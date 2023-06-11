@@ -10,12 +10,7 @@ namespace RAAMEN_PSD_FINAL_PROJECT.Controller
     {
         public static void createCartRamen(int cart_id, int ramen_id, int quantity)
         {
-            //if(quantity <= 1)
-            //{
-            //    return;
-            //}
             CartRamenHandler.createCartRamen(cart_id, ramen_id, quantity);
-            //return; 
         }
     }
 }
