@@ -11,16 +11,16 @@ namespace RAAMEN_PSD_FINAL_PROJECT.View.Admin
 {
 
 
-    public partial class History
+    public partial class TransactionDetail
     {
 
         /// <summary>
-        /// historyGridView control.
+        /// detailGridView control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView historyGridView;
+        protected global::System.Web.UI.WebControls.GridView detailGridView;
     }
 }

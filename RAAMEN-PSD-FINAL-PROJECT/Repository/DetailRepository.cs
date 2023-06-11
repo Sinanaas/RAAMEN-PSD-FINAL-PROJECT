@@ -30,6 +30,5 @@ namespace RAAMEN_PSD_FINAL_PROJECT.Repository
 
             return unhandledDetails;
         }
-
     }
 }

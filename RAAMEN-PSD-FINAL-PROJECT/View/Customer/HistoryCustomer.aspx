@@ -8,7 +8,7 @@
             <Columns>
                 <asp:TemplateField HeaderText="Transaction History">
                     <ItemTemplate>
-                        <asp:Button ID="btnAddRecord" CommandArgument="<%# ((GridViewRow)Container).RowIndex %>" CommandName="AddRecord" runat="server" Text="Detail" UseSubmitBehavior="false"/>
+                        <asp:Button ID="btnAddRecord" CommandArgument="<%# ((GridViewRow)Container).RowIndex %>" CommandName="Detail" runat="server" Text="Detail" UseSubmitBehavior="false"/>
                     </ItemTemplate>
                 </asp:TemplateField>
             </Columns>

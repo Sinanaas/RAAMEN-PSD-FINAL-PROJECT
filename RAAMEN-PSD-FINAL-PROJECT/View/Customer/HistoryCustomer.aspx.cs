@@ -19,7 +19,7 @@ namespace RAAMEN_PSD_FINAL_PROJECT.View.Customer
 
         protected void historyGridView_RowCommand(object sender, GridViewCommandEventArgs e)
         {
-            if (e.CommandName == "AddRecord")
+            if (e.CommandName == "Detail")
             {
                 int index = Convert.ToInt32(e.CommandArgument.ToString());
                 GridViewRow row = historyGridView.Rows[index];
