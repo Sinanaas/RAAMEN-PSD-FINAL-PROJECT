@@ -96,6 +96,7 @@
     <Content Include="View\Customer\HomeCustomer.aspx" />
     <Content Include="View\Customer\OrderRamen.aspx" />
     <Content Include="View\Customer\style.css" />
+    <Content Include="View\Customer\TransactionDetail.aspx" />
     <Content Include="View\FirstPage.aspx" />
     <Content Include="View\Login.aspx" />
     <Content Include="View\Register.aspx" />
@@ -219,6 +220,13 @@
     </Compile>
     <Compile Include="View\Customer\OrderRamen.aspx.designer.cs">
       <DependentUpon>OrderRamen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Customer\TransactionDetail.aspx.cs">
+      <DependentUpon>TransactionDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Customer\TransactionDetail.aspx.designer.cs">
+      <DependentUpon>TransactionDetail.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\FirstPage.aspx.cs">
       <DependentUpon>FirstPage.aspx</DependentUpon>

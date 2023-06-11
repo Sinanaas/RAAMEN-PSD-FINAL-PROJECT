@@ -4,6 +4,14 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div style="margin-top: 55px">
-        <asp:GridView ID="historyGridView" runat="server"></asp:GridView>
+        <asp:GridView ID="historyGridView" runat="server" OnRowCommand="historyGridView_RowCommand">
+            <Columns>
+                <asp:TemplateField HeaderText="Transaction History">
+                    <ItemTemplate>
+                        <asp:Button ID="btnAddRecord" CommandArgument="<%# ((GridViewRow)Container).RowIndex %>" CommandName="AddRecord" runat="server" Text="Detail" UseSubmitBehavior="false"/>
+                    </ItemTemplate>
+                </asp:TemplateField>
+            </Columns>
+        </asp:GridView>
     </div>
 </asp:Content>
