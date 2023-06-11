@@ -20,5 +20,17 @@ namespace RAAMEN_PSD_FINAL_PROJECT.Repository
             db.Carts.Add(cart);
             db.SaveChanges();
         }
+
+        public static int getTotal(int cart_id)
+        {
+            int total = 0;
+            var cartRamenItems = from x in db.Cart_Ramen where x.Cart_Id.Equals(cart_id) select x;
+            foreach (var cartRamen in cartRamenItems)
+            {
+                int ramenPrice = RamenRepository.getPrice(cartRamen.Ramen_Id) * cartRamen.Quantity;
+                total += ramenPrice;
+            }
+            return total;
+        }
     }
 }

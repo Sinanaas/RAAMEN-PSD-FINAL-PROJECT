@@ -13,7 +13,7 @@ namespace RAAMEN_PSD_FINAL_PROJECT.Repository
         public static void createCartRamen(Cart_Ramen cart_ramen)
         {
             Cart_Ramen x = searchCartRamen(cart_ramen.Ramen_Id);
-            if(x != null)
+            if (x != null)
             {
                 x.Quantity++;
             }
@@ -39,6 +39,13 @@ namespace RAAMEN_PSD_FINAL_PROJECT.Repository
                 return cart_ramen;
             }
             return null;
+        }
+
+        public static void deleteCartRamen(int cart_id)
+        {
+            var cartRamenItems = from x in db.Cart_Ramen where x.Cart_Id == cart_id select x;
+            db.Cart_Ramen.RemoveRange(cartRamenItems);
+            db.SaveChanges();
         }
     }
 }

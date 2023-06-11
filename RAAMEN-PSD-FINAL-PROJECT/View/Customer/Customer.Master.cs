@@ -29,5 +29,11 @@ namespace RAAMEN_PSD_FINAL_PROJECT.View.Customer
             int user_id = int.Parse(Request.QueryString["user_id"]);
             Response.Redirect("~/View/Customer/OrderRamen.aspx?user_id=" + user_id);
         }
+
+        protected void history_button_Click(object sender, EventArgs e)
+        {
+            int user_id = int.Parse(Request.QueryString["user_id"]);
+            Response.Redirect("~/View/Customer/OrderRamen.aspx?user_id=" + user_id);
+        }
     }
 }

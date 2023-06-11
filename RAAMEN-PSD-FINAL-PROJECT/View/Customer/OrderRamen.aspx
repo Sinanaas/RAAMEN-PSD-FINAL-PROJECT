@@ -1,5 +1,5 @@
 ﻿<%--<%@ Page Title="" Language="C#" MasterPageFile="~/View/Customer/Customer.Master" AutoEventWireup="true" CodeBehind="OrderRamen.aspx.cs" Inherits="RAAMEN_PSD_FINAL_PROJECT.View.Customer.OrderRamen" %>--%>
-<%@ Page Title="" Language="C#" MasterPageFile="~/View/Customer/Customer.Master" AutoEventWireup="true" CodeBehind="OrderRamen.aspx.cs" Inherits="RAAMEN_PSD_FINAL_PROJECT.View.Customer.OrderRamen" EnableEventValidation="false" %>
+<%@ Page Title="" EnableViewState="true" Language="C#" MasterPageFile="~/View/Customer/Customer.Master" AutoEventWireup="true" CodeBehind="OrderRamen.aspx.cs" Inherits="RAAMEN_PSD_FINAL_PROJECT.View.Customer.OrderRamen" EnableEventValidation="false" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <title>Order Ramen</title>
@@ -23,8 +23,9 @@
         <br />
         <asp:GridView ID="cartGridView" runat="server"></asp:GridView>
         <br />
-        <asp:Label ID="total" runat="server" Text="text"></asp:Label>
+        <asp:Label ID="total" runat="server" Text=""></asp:Label>
         <br />
-        <asp:Button ID="pay_btn" runat="server" Text="Pay" />
+        <asp:Button ID="clear_btn" runat="server" Text="Clear Cart" OnClick="clear_btn_Click" />
+        <asp:Button ID="pay_btn" runat="server" Text="Pay" OnClick="pay_btn_Click" />
     </div>
 </asp:Content>

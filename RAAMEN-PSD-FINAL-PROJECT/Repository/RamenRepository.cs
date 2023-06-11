@@ -45,5 +45,11 @@ namespace RAAMEN_PSD_FINAL_PROJECT.Repository
 
             db.SaveChanges();
         }
+
+        public static int getPrice(int ramen_id)
+        {
+            int price = (from x in db.Ramen where x.Ramen_Id.Equals(ramen_id) select x.Price).FirstOrDefault();
+            return price;
+        }
     }
 }

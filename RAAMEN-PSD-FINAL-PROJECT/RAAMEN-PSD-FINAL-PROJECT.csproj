@@ -92,6 +92,7 @@
     <Content Include="View\Admin\HomeAdmin.aspx" />
     <Content Include="View\Admin\Profile.aspx" />
     <Content Include="View\Admin\style.css" />
+    <Content Include="View\Customer\HistoryCustomer.aspx" />
     <Content Include="View\Customer\HomeCustomer.aspx" />
     <Content Include="View\Customer\OrderRamen.aspx" />
     <Content Include="View\Customer\style.css" />
@@ -108,14 +109,20 @@
   <ItemGroup>
     <Compile Include="Controller\CartController.cs" />
     <Compile Include="Controller\CartRamenController.cs" />
+    <Compile Include="Controller\DetailController.cs" />
+    <Compile Include="Controller\HeaderController.cs" />
     <Compile Include="Controller\RamenController.cs" />
     <Compile Include="Controller\UserController.cs" />
     <Compile Include="Factory\CartFactory.cs" />
     <Compile Include="Factory\CartRamenFactory.cs" />
+    <Compile Include="Factory\DetailFactory.cs" />
+    <Compile Include="Factory\HeaderFactory.cs" />
     <Compile Include="Factory\RamenFactory.cs" />
     <Compile Include="Factory\UserFactory.cs" />
     <Compile Include="Handler\CartHandler.cs" />
     <Compile Include="Handler\CartRamenHandler.cs" />
+    <Compile Include="Handler\DetailHandler.cs" />
+    <Compile Include="Handler\HeaderHandler.cs" />
     <Compile Include="Handler\RamenHandler.cs" />
     <Compile Include="Handler\UserHandler.cs" />
     <Compile Include="Model\Cart.cs">
@@ -160,6 +167,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\CartRamenRepository.cs" />
     <Compile Include="Repository\CartRepository.cs" />
+    <Compile Include="Repository\DetailRepository.cs" />
+    <Compile Include="Repository\HeaderRepository.cs" />
     <Compile Include="Repository\RamenRepository.cs" />
     <Compile Include="Repository\UserRepository.cs" />
     <Compile Include="View\Admin\Admin.Master.cs">
@@ -189,6 +198,13 @@
     </Compile>
     <Compile Include="View\Customer\Customer.Master.designer.cs">
       <DependentUpon>Customer.Master</DependentUpon>
+    </Compile>
+    <Compile Include="View\Customer\HistoryCustomer.aspx.cs">
+      <DependentUpon>HistoryCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Customer\HistoryCustomer.aspx.designer.cs">
+      <DependentUpon>HistoryCustomer.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\Customer\HomeCustomer.aspx.cs">
       <DependentUpon>HomeCustomer.aspx</DependentUpon>
