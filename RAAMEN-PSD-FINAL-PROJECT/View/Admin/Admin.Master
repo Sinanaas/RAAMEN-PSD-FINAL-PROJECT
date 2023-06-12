@@ -18,7 +18,7 @@
                 <li><a href="OrderQueue.aspx">Order Queue</a></li>
                 <li><a href="Profile.aspx">Profile</a></li>
                 <li><a href="History.aspx">History</a></li>
-                <li><a href="Report.aspx">Report</a></li>
+                <li><a href="/test/myTest.aspx">Report</a></li>
                 <li><a href="HomeAdmin.aspx">RAMEN BOS</a></li>
             </ul>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

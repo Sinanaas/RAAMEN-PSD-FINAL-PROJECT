@@ -80,7 +80,7 @@ namespace RAAMEN_PSD_FINAL_PROJECT.View.Customer
                 return;
             }
             Response.Redirect("OrderRamen.aspx");
-            //total.Text = CartRepository.getTotal(cart.Cart_Id).ToString();
+            total.Text = CartRepository.getTotal(cart.Cart_Id).ToString();
         }
 
 

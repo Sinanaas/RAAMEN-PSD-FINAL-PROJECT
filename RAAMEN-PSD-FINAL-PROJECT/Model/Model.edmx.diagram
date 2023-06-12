@@ -4,10 +4,10 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="3174097ef27447baa314b96bd7b6eef2" Name="Diagram1">
+      <Diagram DiagramId="3174097ef27447baa314b96bd7b6eef2" Name="Diagram1" ZoomLevel="114">
         <EntityTypeShape EntityType="DatabaseModel.Cart" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
         <EntityTypeShape EntityType="DatabaseModel.Cart_Ramen" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="DatabaseModel.Detail" Width="1.5" PointX="7.5" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Detail" Width="1.5" PointX="9.375" PointY="3.875" IsExpanded="true" />
         <EntityTypeShape EntityType="DatabaseModel.Header" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
         <EntityTypeShape EntityType="DatabaseModel.Meat" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
         <EntityTypeShape EntityType="DatabaseModel.Raman" Width="1.5" PointX="5.25" PointY="6.875" IsExpanded="true" />

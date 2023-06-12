@@ -8,6 +8,7 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <link rel="stylesheet" href="style.css">
+    <a href="Customer.Master">Customer.Master</a>
 </head>
 <body>
     <form id="form1" runat="server">
