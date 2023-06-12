@@ -124,6 +124,11 @@
     <Compile Include="Controller\HeaderController.cs" />
     <Compile Include="Controller\RamenController.cs" />
     <Compile Include="Controller\UserController.cs" />
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Factory\CartFactory.cs" />
     <Compile Include="Factory\CartRamenFactory.cs" />
     <Compile Include="Factory\DetailFactory.cs" />
@@ -372,6 +377,17 @@
     </EntityDeploy>
     <Content Include="Model\Model.edmx.diagram">
       <DependentUpon>Model.edmx</DependentUpon>
+    </Content>
+    <Content Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
     </Content>
     <None Include="packages.config" />
     <Content Include="View\Admin\Admin.Master" />
