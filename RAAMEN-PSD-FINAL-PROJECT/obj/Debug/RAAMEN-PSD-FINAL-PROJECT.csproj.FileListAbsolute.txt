@@ -1,0 +1,140 @@
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\RAAMEN-PSD-FINAL-PROJECT.dll.config
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\RAAMEN-PSD-FINAL-PROJECT.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\RAAMEN-PSD-FINAL-PROJECT.pdb
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\csc.exe
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\csc.exe.config
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\csc.rsp
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\csi.exe
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\csi.exe.config
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\csi.rsp
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.AppContext.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Console.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.IO.Compression.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Net.Http.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Net.Sockets.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.ValueTuple.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Xml.XPath.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\vbc.exe
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\vbc.exe.config
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\vbc.rsp
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\VBCSCompiler.exe
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\EntityFramework.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\EntityFramework.SqlServer.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\EntityFramework.xml
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\EntityFramework.SqlServer.xml
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\obj\Debug\RAAMEN-PSD-FINAL-PROJECT.csproj.AssemblyReference.cache
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\obj\Debug\RAAMEN-PSD-FINAL-PROJECT.csproj.CoreCompileInputs.cache
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\obj\Debug\RAAMEN-PSD-FINAL-PROJECT.csproj.CopyComplete
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\obj\Debug\RAAMEN-PSD-FINAL-PROJECT.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\obj\Debug\RAAMEN-PSD-FINAL-PROJECT.pdb
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\CrystalDecisions.ReportSource.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\CrystalDecisions.Shared.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\CrystalDecisions.Web.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\log4net.dll
+C:\Users\pudge\OneDrive\Dokumen\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\log4net.xml
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\RAAMEN-PSD-FINAL-PROJECT.dll.config
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\RAAMEN-PSD-FINAL-PROJECT.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\RAAMEN-PSD-FINAL-PROJECT.pdb
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\csc.exe
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\csc.exe.config
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\csc.rsp
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\csi.exe
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\csi.exe.config
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\csi.rsp
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.AppContext.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Collections.Immutable.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Console.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Globalization.Calendars.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.IO.Compression.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.IO.FileSystem.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Net.Http.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Net.Sockets.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Reflection.Metadata.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.ValueTuple.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Xml.XPath.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\vbc.exe
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\vbc.exe.config
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\vbc.rsp
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\VBCSCompiler.exe
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\roslyn\VBCSCompiler.exe.config
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\CrystalDecisions.ReportSource.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\CrystalDecisions.Shared.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\CrystalDecisions.Web.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\EntityFramework.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\EntityFramework.SqlServer.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\log4net.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\EntityFramework.xml
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\EntityFramework.SqlServer.xml
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\log4net.xml
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\obj\Debug\RAAMEN-PSD-FINAL-PROJECT.csproj.AssemblyReference.cache
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\obj\Debug\RAAMEN-PSD-FINAL-PROJECT.csproj.CoreCompileInputs.cache
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\obj\Debug\RAAMEN-PSD-FINAL-PROJECT.csproj.CopyComplete
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\obj\Debug\RAAMEN-PSD-FINAL-PROJECT.dll
+D:\Binus\semester 4\psd\RAAMEN-PSD-FINAL-PROJECT-FIN\RAAMEN-PSD-FINAL-PROJECT\RAAMEN-PSD-FINAL-PROJECT\obj\Debug\RAAMEN-PSD-FINAL-PROJECT.pdb
